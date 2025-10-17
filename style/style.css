@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body{
         background-image: url('../img/5630939.jpg');
 
@@ -8,6 +11,8 @@ body{
 }
 nav{
         overflow : hidden;
+          overflow: hidden;
+
 
 }
 ul{
