@@ -9,11 +9,13 @@ body{
     font-family : Arial, Helvetica, sans-serif;
 
 }
+
 nav{
-        overflow : hidden;
-          overflow: hidden;
-
-
+overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 ul{
     list-style-type: none;
@@ -60,6 +62,7 @@ p{
 }
 .columne_1{
     padding: 20px;
+    width: 60%;
 }
 /* Animation */
 .typewriter-animation {
@@ -151,7 +154,7 @@ h3{
 }
 
 .page_info{
-    margin-left: 250px;
+    margin-left: 5%;
 }
 
 .container-2{
@@ -392,4 +395,29 @@ font-size: 25px;
 
 .columne_04{
 margin-right: 20px;
+}
+
+.container3{
+  display: flex;
+  margin-top: 13%;
+  justify-content: center;
+}
+
+
+.columne05{
+width: 800px;
+height: 500px;
+
+  
+}
+
+.columne06{
+  width: 800px;
+height: 500px;
+background-color: #0dd9e0;
+margin-left: 50px;
+}
+
+.images_propose{
+  display: block;
 }
