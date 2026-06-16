@@ -270,3 +270,91 @@ form { display: flex; flex-direction: column; gap: 20px; }
 }
 
 footer { text-align: center; padding: 30px 0; background: rgba(0,0,0,0.4); margin-top: 50px; }
+
+
+/* --- ADAPTATION BOUTON DE LANGUE & RTL --- */
+/* ========================================
+   ADAPTATION BOUTON DE LANGUE (À DROITE)
+   ======================================== */
+/* ========================================
+   BOUTON TRADUIRE : TOUJOURS À DROITE
+   ======================================== */
+.navbar__right-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Espace entre le bouton de langue et le bouton hamburger sur mobile */
+  order: 2;  /* Force cette zone à se mettre à droite */
+}
+
+.lang-btn {
+  background: transparent;
+  border: 1px solid #0dd9e0;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.lang-btn:hover {
+  background: #0dd9e0;
+  color: #020610;
+  box-shadow: 0 0 10px #0dd9e0;
+}
+
+/* Ajustement de l'ordre de la navigation sur ordinateur pour que le menu soit au milieu */
+@media (min-width: 768px) {
+  .navbar__menu {
+    order: 1;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+}
+
+/* ========================================
+   CORRECTION STRUCTURALE DU MODE PERSAN (RTL)
+   ======================================== */
+/* Aligne les textes à droite pour le Persan */
+html[dir="rtl"] p, 
+html[dir="rtl"] h1, 
+html[dir="rtl"] h2, 
+html[dir="rtl"] h3,
+html[dir="rtl"] .sertificat {
+  text-align: right !important;
+}
+
+/* Aligne le menu de droite à gauche sur ordinateur tout en gardant le bouton à sa place */
+@media (min-width: 768px) {
+  html[dir="rtl"] .navbar__list {
+    flex-direction: row-reverse;
+  }
+  html[dir="rtl"] .navbar__menu {
+    margin-right: auto;
+    margin-left: 20px;
+  }
+}
+
+/* Gestion du formulaire en mode Persan */
+html[dir="rtl"] .input-group label {
+  right: 15px;
+  left: auto;
+}
+
+html[dir="rtl"] .input-group input:focus ~ label, 
+html[dir="rtl"] .input-group input:not(:placeholder-shown) ~ label, 
+html[dir="rtl"] .input-group textarea:focus ~ label, 
+html[dir="rtl"] .input-group textarea:not(:placeholder-shown) ~ label {
+  right: 10px;
+  left: auto;
+}
+
+/* SÉCURITÉ DE L'ANIMATION CIRCULAIRE DE TES COMPÉTENCES (IMAGE_F77F4B.JPG) */
+.container-6 {
+  direction: ltr !important;
+}
+.container-6 .item {
+  direction: ltr !important;
+}
