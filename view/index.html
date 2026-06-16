@@ -1,200 +1,217 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../style/style.css">
-  <title>Accueil</title>
+  <title>Bismellah HASHIMI</title>
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="#index">Accueil</a></li>
-      <li><a href="#info">Information</a></li>
-      <li><a href="#about">À propos</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-  <div id="index">
-    <div class="container">
-      <div class="columne_1">
-        <div class="titre">
-          <h1 class="cursor typewriter-animation">Bonjour, je m'appelle <strong>Bismellah HASHIMI</strong></h1>
-          <div class="paragraphe-1">
-            <p class="paragraphe-2">Je m'appelle bisemmalh HASHIMI, j'ai 19 ans et je vien d'Afghanistan. Actuellement
-              je suis un
-              apprenti en devvlopment d'application chez micro informatic systeme SA. </p>
+
+  <!-- BARRE DE NAVIGATION INTERACTIVE (EFFECT VITRE) -->
+  <header class="navbar" role="banner">
+    <div class="navbar__container">
+      <div class="logo">Bismellah HASHIMI | Développeur </div>
+      
+      <!-- Bouton Hamburger visible sur Mobile -->
+      <button class="navbar__toggle" id="navbarToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      
+      <nav id="navbarMenu" class="navbar__menu" role="navigation">
+        <ul class="navbar__list">
+          <li><a href="#index" class="navbar__link">Accueil</a></li>
+          <li><a href="#info" class="navbar__link">Parcours</a></li>
+          <li><a href="#connaissances" class="navbar__link">Connaissances</a></li>
+          <li><a href="#about" class="navbar__link">À propos</a></li>
+          <li><a href="#contact" class="navbar__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTENU PRINCIPAL -->
+  <main>
+    
+    <!-- ACCUEIL -->
+    <div id="index">
+      <div class="container">
+        <div class="columne_1">
+          <div class="titre">
+            <h1 class="cursor typewriter-animation">Bonjour, je m'appelle <strong>Bismellah HASHIMI</strong></h1>
+            <div class="paragraphe-1">
+              <p class="paragraphe-2">J'ai 19 ans et je viens d'Afghanistan. Actuellement, je suis un apprenti en développement d'applications chez Micro Informatique Système SA.</p>
+            </div>
+            <h1>Mes loisirs</h1>
+            <p>J'aime faire du sport. J'ai commencé la musculation le <mark>12.08.2025</mark>. J'ai également fait du Muay Thaï pendant un an et demi. Après m'être cassé l'épaule, j'ai dû arrêter le sport pendant deux ans, mais j'ai repris avec motivation !</p>
+            
+            <div class="images">
+              <div class="gim-text">
+                <img class="gym" src="../img/muscular-man-lifting-a-dumbbell-with-one-hand-in-a-dark-gym-free-photo.jpg" width="150px" height="150px" alt="Musculation">
+              </div>
+              <div class="mauytahi-texte">
+                <img class="mauytahi" src="../img/f9e6114573a562223ab6daeffaa97a97.jpg" alt="Muay Thaï" width="150px" height="150px">
+              </div>
+              <div class="moto-texte">
+                <img class="moto" src="../img/ca5f59b3f1b253217cacb09ee5831bbc.jpg" alt="Moto" width="150px" height="150px">
+              </div>
+            </div>
           </div>
-          <h1>Mes hobbyes</h1>
-          <p>J'aime faire du sport. J'ai comencer du faire le musculation le <mark>12.08.2025</mark>. j'ai fessai
-            egalment de mauy tahi pendant un ans et demi aprés avoir cass mon épaule j'ai arété de faire le sport
-            pendant deux ans </p>
-          <div class="images">
-
-            <div class="gim-text">
-              <img class="gym" src="../img/muscular-man-lifting-a-dumbbell-with-one-hand-in-a-dark-gym-free-photo.jpg"
-                width="150px" height="150px">
-            </div>
-
-            <div class="mauytahi-texte">
-              <img class="mauytahi" src="../img/f9e6114573a562223ab6daeffaa97a97.jpg" alt="mauy tahi" width="150px"
-                height="150px">
-            </div>
-            <div class="moto-texte">
-              <img class="moto" src="../img/ca5f59b3f1b253217cacb09ee5831bbc.jpg" alt="moto" width="150px"
-                height="150px">
-            </div>
-          </div>
-
         </div>
-        <div id="info">
-          <div class="page_info">
-            <h1>Information</h1>
-            <h3>École de la transition, Yverdon-les-Bains</h3>
-            <p>Dès août 2024 - Classe pré-professionnelle (avec appui en français)</p>
-            <h3>Établissement secondaire Elysée</h3>
-            <p>Novembre 2023 à juin 2024 - Classe d’accueil en voie générale 11VG/ACC</p>
-            <h3>École de l’EVAM, Chavannes</h3>
-            <p>2022 durant 3 mois - Apprentissage du Français</p>
-            <h3>École en Afghanistan</h3>
-            <p>De 6 ans à 15 ans - Apprentissage des mathématique, des Sciences,
-              des langues Dari, Pashto, Anglais</p>
-          </div>
-        </div>
-      </div>
-      <div class="columne-2"><img class="milad" src="../img/milad.gpg.jpeg" alt="Milad" width="600px" height="600px">
-      </div>
-
-    </div>
-  </div>
-
-  <div class="container-2">
-    <div class="columne-02">
-      <div class="info_scolaire">
-        <img class="image-certificat"
-          src="../img/depositphotos_198392248-stock-photo-successful-graduate-academic-dresses-raised.jpg"
-          alt="certificat scolaire" width="396px" height="300px">
-        <h2>Mon parcours scolaire</h2>
-        <p class="sertificat">J’ai obtenu mon certificat en mai 2024 à <a class="adresse"
-            href="http://google.com/maps?hl=fr&gl=fr&um=1&ie=UTF-8&fb=1&sa=X&ftid=0x478c2fcee74ad977:0x4650fe7f7c87cc02">l’Élysée</a>.
-          Après avoir terminé mes études obligatoires, j’ai commencé l’école de la transition, dont le but est d’aider
-          les élèves à trouver une place d’apprentissage. Après avoir envoyé mes dossiers de candidature à plusieurs
-          entreprises dans le domaine de l’informatique, grâce à ma motivation et à l’aide de mes professeurs, j’ai
-          trouvé une place d’apprentissage en développement d’applications à Micro Informatique Système SA, à
-          Yverdon-les-Bains.</p>
-      </div>
-      <div class="info_scolaire">
-        <img class="image-certificat" src="../img/html-system-websites-concept.webp" alt="certificat scolaire"
-          width="395px" height="300px">
-        <h2>Pourquoi j'ai choisis l'informatiques</h2>
-        <p class="sertificat">J’ai choisi l’informatique parce que c’est un domaine qui me passionne et qui offre énormément de possibilités. En tant qu’apprenti en CFC, je découvre pas à pas le monde du développement : apprendre les langages de programmation, comprendre la logique derrière les logiciels et participer à la création de projets concrets.
-
-         Même si je suis seulement en première année, je vois déjà à quel point l’informatique est au cœur de notre quotidien.</p>
-      </div>
-      <div class="info_scolaire">
-        <img class="image-certificat" src="../img/image.png" alt="certificat scolaire" width="395px" height="300px">
-        <h2>Ou je me trouve dans 5 ans </h2>
-
-        <p class="sertificat">Dans cinq ans, je me vois comme un jeune professionnel en informatique, ayant terminé mon CFC et acquis plusieurs années d’expérience pratique. Je serai capable de développer des applications complètes, de travailler sur des projets variés et de contribuer activement à des solutions numériques utiles.</p>
-      </div>
-    </div>
-  </div>
-  <div class="connaissence_info">
-     <div class="container-6">
-      <div class="item">
-        <img src="../img/css-3.png">
-      </div>
-
-      <div class="item">
-        <img src="../img/html-5.png">
-      </div>
-
-      <div class="item">
-        <img src="../img/script-java (1).png">
-      </div>
-
-      <div class="item">
-        <img src="../img/wordpress.png">
-      </div>
-
-      <div class="item">
-        <img src="../img/python.png">
-      </div>
-
-      <div class="item">
-        <img src="../img/php.png">
-      </div>
-
-      <div class="item">
-        <img src="../img/github (1).png">
-      </div>
-    </div>
-    <div class="columne_04">
-      <h1 class="connaicence">Mes conaissence en devlopment</h1>
-      <p>J’ai appris plusieurs langages de programmation pendant mon préapprentissage, comme HTML, CSS, JavaScript
-        et WordPress. Je sais également travailler avec Git et GitHub pour travailler en groupe. Par la suite, je
-        veux aussi apprendre le PHP et Python. </p>
-    </div>
-  </div>
-
-  </div>
-  <div id="about">
-    <div class="container3">
-      <div class="columne05">
-        <h1>À propos de moi</h1>
-        <p class="propose-p">Je suis Bismellah Hasdhimi, né le 01.10.2006 en Afghanistan. j'ai fait mes études jusqu'à
-          la 9ème année
-          scolaire obligatoire dans mon pays. Je suis arrivé en suisse le 27.07.2022. Après mon arrivé en suisse j'ai
-          fait 11em année scolaire obligatioire en vois général.</p>
-        <div class="images_propose">
-          <img src="../img/car_afghanistan.png" alt="afghanistan" width="300px" height="200px">
-          <img src="../img/istockphoto-686124162-612x612.jpg" alt="afghanistan flage" width="300px" height="200px">
-          <img src="../img/swiss-flag-waving-proudly-mountains-600nw-2626601527.webp" alt="suisse" width="300px"
-            height="200px">
-          <img src="../img/Suisse.png" alt="suisse" width="300px" height="200px">
+        
+        <div class="columne-2">
+          <img class="milad" src="../img/milad.gpg.jpeg" alt="Milad" width="500px" height="500px">
         </div>
       </div>
+    </div>
 
-      <div class="columne06">
+    <hr class="separateur-page">
 
+    <!-- PARCOURS SCOLAIRE -->
+    <div id="info">
+      <div class="container-2">
+        <div class="columne-02">
+          <div class="info_scolaire">
+            <img class="image-certificat" src="../img/depositphotos_198392248-stock-photo-successful-graduate-academic-dresses-raised.jpg" alt="certificat scolaire" width="396px" height="300px">
+            <div class="info-scolaire-texte">
+              <h2>Mon parcours scolaire</h2>
+              <p class="sertificat">J’ai obtenu mon certificat en mai 2024 à <a class="adresse" href="http://google.com/maps?hl=fr&gl=fr&um=1&ie=UTF-8&fb=1&sa=X&ftid=0x478c2fcee74ad977:0x4650fe7f7c87cc02" target="_blank">l’Élysée</a>. Après avoir terminé mes études obligatoires, j’ai commencé l’école de la transition, dont le but est d’aider les élèves à trouver une place d’apprentissage. Grâce à ma motivation et à l’aide de mes professeurs, j’ai trouvé une place d’apprentissage en développement d’applications à Micro Informatique Système SA, à Yverdon-les-Bains.</p>
+            </div>
+          </div>
+          
+          <div class="info_scolaire">
+            <img class="image-certificat" src="../img/html-system-websites-concept.webp" alt="certificat scolaire" width="395px" height="300px">
+            <div class="info-scolaire-texte">
+              <h2>Pourquoi j'ai choisi l'informatique</h2>
+              <p class="sertificat">J’ai choisi l’informatique parce que c’est un domaine qui me passionne et qui offre énormément de possibilités. En tant qu’apprenti en CFC, je découvre pas à pas le monde du développement : apprendre les langages de programmation, comprendre la logique derrière les logiciels et participer à la création de projets concrets. Même si je suis seulement en première année, je vois déjà à quel point l’informatique est au cœur de notre quotidien.</p>
+            </div>
+          </div>
+          
+          <div class="info_scolaire">
+            <img class="image-certificat" src="../img/image.png" alt="certificat scolaire" width="395px" height="300px">
+            <div class="info-scolaire-texte">
+              <h2>Où je me trouve dans 5 ans</h2>
+              <p class="sertificat">Dans cinq ans, je me vois comme un jeune professionnel en informatique, ayant terminé mon CFC et acquis plusieurs années d’expérience pratique. Je serai capable de développer des applications complètes, de travailler sur des projets variés et de contribuer activement à des solutions numériques utiles.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
- 
+
+    <hr class="separateur-page">
+
+    <!-- CONNAISSANCES -->
+    <div id="connaissances">
+      <div class="connaissence_info">
+        <div class="container-6">
+          <div class="item"><img src="../img/css-3.png" alt="CSS"></div>
+          <div class="item"><img src="../img/html-5.png" alt="HTML"></div>
+          <div class="item"><img src="../img/script-java (1).png" alt="JavaScript"></div>
+          <div class="item"><img src="../img/wordpress.png" alt="WordPress"></div>
+          <div class="item"><img src="../img/python.png" alt="Python"></div>
+          <div class="item"><img src="../img/php.png" alt="PHP"></div>
+          <div class="item"><img src="../img/github (1).png" alt="GitHub"></div>
+        </div>
+        <div class="columne_04">
+          <h1 class="connaicence">Mes connaissances en développement</h1>
+          <p>J’ai appris plusieurs langages de programmation pendant mon préapprentissage, comme HTML, CSS, JavaScript et WordPress. Je sais également travailler avec Git et GitHub pour travailler en groupe. Par la suite, je veux aussi apprendre le PHP et Python.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="separateur-page">
+
+    <!-- À PROPOS -->
+    <div id="about">
+      <div class="container3">
+        <div class="columne05">
+          <h1>À propos de moi</h1>
+          <p class="propose-p">Je suis Bismellah HASHIMI, né le 01.10.2006 en Afghanistan. J'ai fait mes études jusqu'à la 9ème année scolaire obligatoire dans mon pays. Je suis arrivé en Suisse le 27.07.2022. Après mon arrivée en Suisse, j'ai fait ma 11ème année scolaire obligatoire en voie générale.</p>
+          <div class="images_propose">
+            <img src="../img/car_afghanistan.png" alt="afghanistan" width="300px" height="200px">
+            <img src="../img/istockphoto-686124162-612x612.jpg" alt="afghanistan flage" width="300px" height="200px">
+            <img src="../img/swiss-flag-waving-proudly-mountains-600nw-2626601527.webp" alt="suisse" width="300px" height="200px">
+            <img src="../img/Suisse.png" alt="suisse" width="300px" height="200px">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="separateur-page">
+
+    <!-- CONTACT -->
     <div id="contact">
-       <div class="container4">
-      <h1 class="page-contact">Contacterz-moi </h1>
-      <p class="page-contact-p">
-        Vous rencontrez des problèmes informatiques ou vous souhaitez créer un site web professionnel pour votre
-        entreprise ? N'hésitez pas à me contacter ! Je vous propose des solutions adaptées à vos besoins, que ce soit
-        pour
-        le dépannage, la maintenance, ou la conception d’un site moderne et efficace. Ensemble, donnons vie à vos
-        projets
-        numériques et développons votre présence en ligne.
-      </p>
+      <div class="contact-wrapper">
+        
+        <!-- Formulaire E-mail -->
+        <div class="contact-box">
+          <h2>Envoyez-moi un message</h2>
+          <p class="subtitle">Une idée, un projet ou une question ? Écrivez-moi directement ici.</p>
+          <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+            <div class="input-group">
+              <input type="text" name="name" required placeholder=" ">
+              <label>Votre Nom</label>
+            </div>
+            <div class="input-group">
+              <input type="email" name="email" required placeholder=" ">
+              <label>Votre Adresse Email</label>
+            </div>
+            <div class="input-group">
+              <textarea name="message" rows="5" required placeholder=" "></textarea>
+              <label>Votre Message</label>
+            </div>
+            <button type="submit" class="btn-submit">Envoyer le message</button>
+          </form>
+        </div>
 
-      <div class="home-sci">
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-            class="bi bi-facebook" viewBox="0 0 16 16">
-            <path
-              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
-          </svg></a>
-        <a href="../img/instagram (1).svg"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-            fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-            <path
-              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
-          </svg></a>
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-            class="bi bi-whatsapp" viewBox="0 0 16 16">
-            <path
-              d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-          </svg></a>
+        <!-- Réseaux Sociaux Directs -->
+        <div class="contact-box">
+          <h2>Me connecter directement</h2>
+          <p class="subtitle">Discutons sur vos plateformes préférées ou via WhatsApp pour une réponse rapide.</p>
+          <div class="social-cards">
+            <a target="_blank" class="social-card whatsapp">
+              <div class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+  <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+</svg></div>
+              <div class="social-text">
+                <h3>WhatsApp</h3>
+                <p>Discuter en direct</p>
+              </div>
+            </a>
+            <a href="https://instagram.com/" target="_blank" class="social-card instagram">
+              <div class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+</svg></div>
+              <div class="social-text">
+                <h3>Instagram</h3>
+                <p>Suivre mes créations</p>
+              </div>
+            </a>
+            <a href="https://facebook.com/" target="_blank" class="social-card facebook">
+              <div class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+</svg></div>
+              <div class="social-text">
+                <h3>Facebook</h3>
+                <p>Rester en contact</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
       </div>
-  </div>
-   </div>
-     </div>
-</body>
+    </div>
 
+  </main>
+
+  <footer>
+    <p>© 2026 Bismellah HASHIMI. Tous droits réservés.</p>
+  </footer>
+
+<script src="../script/script.js"></script>
+</body>
 </html>
